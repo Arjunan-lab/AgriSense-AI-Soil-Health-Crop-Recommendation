@@ -22,3 +22,19 @@ __pycache__/
 .env
 .env.local
 .env.*.local
+
+# Auto-generated exclusions for GitHub push
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.zip
+node_modules/
+dist/
+build/
+.env
+.pytest_cache/

@@ -1,0 +1,51 @@
+# Virtual Environments
+venv/
+venv_final/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment & Secret files
+.env
+.env.local
+.env.*.local
+
+# Database files
+*.db
+*.sqlite3
+app.db
+
+# Testing & Coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.noserc
+nosetests.xml
+coverage.xml
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Logs & Temporary files
+*.log
+tmp/
+temp/
+
+# Uploads & User generated media
+app/uploads/*
+!app/uploads/.gitkeep

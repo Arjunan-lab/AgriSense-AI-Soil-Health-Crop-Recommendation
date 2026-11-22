@@ -1,0 +1,53 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "agroai-app": {
+      "root": "backend",
+      "framework": "fastapi"
+    },
+    "frontend": {
+      "root": "frontend",
+      "framework": "vite",
+      "bindings": [
+        {
+          "type": "service",
+          "service": "agroai-app",
+          "format": "url",
+          "env": "AGROAI_APP_URL"
+        }
+      ]
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": {
+        "service": "agroai-app"
+      }
+    },
+    {
+      "source": "/docs",
+      "destination": {
+        "service": "agroai-app"
+      }
+    },
+    {
+      "source": "/redoc",
+      "destination": {
+        "service": "agroai-app"
+      }
+    },
+    {
+      "source": "/openapi.json",
+      "destination": {
+        "service": "agroai-app"
+      }
+    },
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "frontend"
+      }
+    }
+  ]
+}

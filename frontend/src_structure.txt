@@ -1,0 +1,134 @@
+Folder PATH listing for volume OS
+Volume serial number is 0000017C 6EE6:F45D
+C:\USERS\THENE\ONEDRIVE\DOCUMENTS\ANTIGRAVITY PROJECTS\CROP RECOMMENDATION\FRONTEND\SRC
+|   App.css
+|   App.jsx
+|   index.css
+|   main.jsx
+|   
++---api
+|       analysis.ts
+|       auth.ts
+|       chatbot.ts
+|       dashboard.ts
+|       history.ts
+|       notification.ts
+|       profile.js
+|       
++---assets
+|       hero.png
+|       react.svg
+|       vite.svg
+|       
++---components
+|   +---Analysis
+|   |       HealthCard.tsx
+|   |       LoadingSkeleton.tsx
+|   |       MetadataCard.tsx
+|   |       PredictionCard.tsx
+|   |       ProbabilityChart.tsx
+|   |       RecommendationCard.tsx
+|   |       SoilForm.tsx
+|   |       Top5CropCards.tsx
+|   |       UploadBox.tsx
+|   |       WeatherWidget.tsx
+|   |       
+|   +---common
+|   |       Button.jsx
+|   |       Card.jsx
+|   |       ChatLanguagePopup.tsx
+|   |       ConfirmDialog.jsx
+|   |       ErrorBoundary.tsx
+|   |       FeedbackStates.jsx
+|   |       Input.jsx
+|   |       Loader.jsx
+|   |       Modal.jsx
+|   |       Select.jsx
+|   |       
+|   +---Dashboard
+|   |       DashboardSkeleton.tsx
+|   |       LatestPrediction.tsx
+|   |       Navbar.tsx
+|   |       Sidebar.tsx
+|   |       StatsCard.tsx
+|   |       
+|   +---History
+|   |       DeleteDialog.tsx
+|   |       HistoryModal.tsx
+|   |       HistoryRow.tsx
+|   |       HistorySkeleton.tsx
+|   |       HistoryTable.tsx
+|   |       Pagination.tsx
+|   |       SearchBar.tsx
+|   |       
+|   +---layout
+|   |       Breadcrumbs.jsx
+|   |       LanguageSwitcher.jsx
+|   |       Layout.jsx
+|   |       Navbar.jsx
+|   |       NotificationBell.jsx
+|   |       Sidebar.jsx
+|   |       
+|   +---Profile
+|   |       ChangePasswordDialog.jsx
+|   |       EditProfileDialog.jsx
+|   |       ProfileCard.jsx
+|   |       
+|   \---Settings
+|           DangerZone.jsx
+|           PreferenceSwitch.jsx
+|           SettingsCard.jsx
+|           ThemeSelector.jsx
+|           
++---constants
+|       api.js
+|       navigation.js
+|       
++---context
+|       AuthContext.jsx
+|       LanguageContext.jsx
+|       ThemeContext.jsx
+|       
++---hooks
+|       useApi.js
+|       useDisclosure.js
+|       useFieldLabel.ts
+|       useLocalStorage.js
+|       
++---i18n
+|       fieldLabels.ts
+|       
++---pages
+|       AboutPage.jsx
+|       CompleteAnalysis.tsx
+|       Dashboard.tsx
+|       DashboardPage.jsx
+|       History.tsx
+|       HistoryDetailPage.jsx
+|       LoginPage.jsx
+|       NotFoundPage.jsx
+|       ProfilePage.jsx
+|       RegisterPage.jsx
+|       SettingsPage.jsx
+|       SystemPage.jsx
+|       
++---routes
+|       AppRoutes.jsx
+|       ProtectedRoute.jsx
+|       
++---services
+|       api.js
+|       languages.ts
+|       weather.ts
+|       
++---types
+|       analysis.ts
+|       dashboard.ts
+|       history.ts
+|       index.js
+|       
+\---utils
+        formatters.js
+        jwt.js
+        rbac.js
+        

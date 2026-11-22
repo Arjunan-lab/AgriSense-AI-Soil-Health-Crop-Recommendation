@@ -1,16 +1,24 @@
-
-# Auto-generated exclusions for GitHub push
+# Environment and dependencies
 venv/
 .venv/
+node_modules/
+dist/
+build/
+.vercel/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.pytest_cache/
+
+# Databases and temporary archives
 *.db
 *.sqlite3
 *.zip
-node_modules/
-dist/
-build/
+
+# Local secrets
 .env
-.pytest_cache/
+.env.local
+.env.*.local
